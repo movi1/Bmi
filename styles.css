@@ -1,0 +1,22 @@
+
+body {
+   
+    height: 100vh;
+   ;
+    /* background: linear-gradient(to bottom right,  #F1F2B5, #eef2f3); */
+    text-align: center;
+  }
+  .row-one {
+    padding: 20px;
+  }
+  
+  .row-two {
+    padding: 20px;
+  }  
+  .container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+  }
