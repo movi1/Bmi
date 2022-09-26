@@ -1,31 +1,19 @@
-// function turnOn() {
 
-//     document.getElementById('bulb').src = "pic_bulbon.gif"
-// }
-
-// function turnOff() {
-//     document.getElementById('bulb').src = "pic_bulboff.gif"
-// }
-// 
 function calculation() {
     //declaring variable 
     //getting the HTML element by the id
-    let heightCm = document.getElementById("height");
-    let weight = document.getElementById("weight");
+    let heightCm = document.getElementById("height").value;
+    let weight = document.getElementById("weight").value;
     let result = document.getElementById("result");
 
     //Output the variable value on the console
-    console.log(heightCm.value);
-    console.log(weight.value);
+    console.log(heightCm);
+    console.log(weight);
 
-// conversion from meters to cm
-    let heightMeters = heightCm.value / 100
  
-    console.log(heightMeters)
-
 // calculation of BMI
 
-let sum = (heightMeters / weight.value) / heightMeters
+let sum = (weight / heightCm / heightCm) * 10000
     console.log(sum);
-    result.value = sum
+    result.value = sum;
 }
